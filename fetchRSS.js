@@ -28,7 +28,6 @@ async function getLinksAndTitlesFromRSS(urls) {
 getLinksAndTitlesFromRSS(rssUrls)
   .then(news => {
 	console.log(news);
-	// Sauvegarder les news dans un fichier JSON de manière synchrone
 	const path = require('path');
 	const fs = require('fs');
 	
